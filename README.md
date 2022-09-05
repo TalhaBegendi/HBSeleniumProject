@@ -7,4 +7,4 @@ Mac'ten çalıştırmak istendiğinde bunlar değiştirilmelidir
 ve main/java/utils/DriverFacory içerisnde ...exe uzantılarda ki
 exe'ler silinmelidir.
 
-Case'de ki 5. ve 6. adımlar mevcut değildir :( 
+Case'de ki 5. ve 7. adımlar mevcut değildir :( 
