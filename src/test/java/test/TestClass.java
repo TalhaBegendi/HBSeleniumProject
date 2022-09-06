@@ -8,16 +8,12 @@ import utils.driver.Driver;
 public class TestClass {
     Driver driver = new Driver();
     @Test
-    public  void firstBrowserSearch()  {
-        driver.firstSearchEngineInitialize();
+    public  void browserSearch()  {
+        driver.searchEngineInitialize("https://www.google.com/");
         GoogleKeywordPage googleKeywordPage = new GoogleKeywordPage();
         googleKeywordPage.googleKeywordSearch();
-    }
-    @Test
-    public  void secondBrowserSearch()  {
-        driver.secondSearchEngineInitialize();
+        driver.searchEngineInitialize("https://www.yandex.com/");
         YandexKeywordPage yandexKeywordPage = new YandexKeywordPage();
         yandexKeywordPage.yandexKeywordSearch();
     }
-
 }
