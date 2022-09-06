@@ -15,5 +15,6 @@ public class TestClass {
         driver.searchEngineInitialize("https://www.yandex.com/");
         YandexKeywordPage yandexKeywordPage = new YandexKeywordPage();
         yandexKeywordPage.yandexKeywordSearch();
+        terminate();
     }
 }
